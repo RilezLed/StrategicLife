@@ -106,7 +106,7 @@ with st.container(width="stretch", height="content", key="my_custom_container", 
 
     mainCol2.write("")
     mainCol2.write("")
-    mainCol2.image("chess.jpg", caption="Strategic Life Planning is like Chess - think several moves ahead!", use_container_width=True)
+    mainCol2.image("StrategizeYourLife/chess.jpg", caption="Strategic Life Planning is like Chess - think several moves ahead!", use_container_width=True)
 
 
 with st.container(width="stretch", height="content", key="my_custom_container2"):
@@ -263,6 +263,7 @@ with st.container(width="stretch", height="content", key="my_custom_container4")
         print("Generate Summary clicked")
     st.write("")
     st.write("")
+
 
 
 
