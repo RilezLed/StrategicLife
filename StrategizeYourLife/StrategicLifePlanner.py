@@ -110,7 +110,7 @@ with st.container(width="stretch", height="content", key="my_custom_container", 
 
 
 with st.container(width="stretch", height="content", key="my_custom_container2"):
-    st.write("## Step 1: Your Strategic Life Table", align="left")
+    st.write("## Step 1: Your Strategic Life Table")
 
     dtCol1, dtCol2, dtCol3 = st.columns([4, 1,3], gap="medium")
     dtCol3.write("### Taking Inventory of Your Strategic Life Units")
@@ -263,6 +263,7 @@ with st.container(width="stretch", height="content", key="my_custom_container4")
         print("Generate Summary clicked")
     st.write("")
     st.write("")
+
 
 
 
